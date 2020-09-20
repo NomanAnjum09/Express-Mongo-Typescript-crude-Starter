@@ -4,7 +4,6 @@
   "description": "",
   "main": "./dist/server.js",
   "scripts": {
-    
     "start": "tsc && nodemon ./dist/server.js",
     "test": "ts-node ./lib/server.ts",
     "dev": "tsc && nodemon ./dist/server.js",
@@ -21,5 +20,8 @@
   },
   "engines": {
     "node": "10.x"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
   }
 }
