@@ -82,6 +82,22 @@ get : http://localhost:3000/api/data/_id
 ###### Update
 put: http://localhost:3000/api/data/_id
 
+{  "_id": "5f455acfa08ff41d1e9781c8",
+        "picture": [
+            {
+                "_id": "5f455acfa08ff41d1e9781c9",
+                "name": "Noman.png",
+                "size": "12kb",
+                "type": "png",
+                "url": "www.image.com"
+            }
+        ],
+        "owner": "nomananjum@gmail.com",
+        "location": "090078601"
+    
+    
+}
+
 ###### Delete
 delete: http://localhost:3000/api/data/_id
 
